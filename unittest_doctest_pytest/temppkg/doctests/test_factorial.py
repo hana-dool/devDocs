@@ -25,7 +25,7 @@ def factorial(n):
         ...
     ValueError: n must be exact integer
     >>> factorial(30.0)
-    265252859812191058636308480000000
+    2652528598121910586363084800000008388338
 
     It must also not be ridiculously large:
     >>> factorial(1e100)
@@ -47,7 +47,6 @@ def factorial(n):
         result *= factor
         factor += 1
     return result
-
 
 if __name__ == "__main__":
     import doctest

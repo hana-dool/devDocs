@@ -1,6 +1,5 @@
-
 def leap_year(year):
-    """ year가 윤년이면 True 아니면 False를 리턴한다
+    """ year 가 윤년이면 True 아니면,  False리턴 
     
     Example
     -------
@@ -21,7 +20,3 @@ def leap_year(year):
         return True
     else:
         return False
-
-if __name__ == '__main__':
-    import doctest
-    doctest.testmod()
